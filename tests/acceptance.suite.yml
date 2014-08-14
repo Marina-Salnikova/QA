@@ -16,6 +16,5 @@ modules:
          url: 'http://2gis.ru/novosibirsk/'
          browser: chrome
          window_size: 1024x768
-         wait: 10
          capabilities:
              unexpectedAlertBehaviour: 'accept'
