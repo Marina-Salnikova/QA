@@ -11,7 +11,7 @@
 class_name: WebGuy
 modules:
    enabled: [WebDriver]
-   config:
+   config:     
       WebDriver:
          url: 'http://2gis.ru/novosibirsk/'
          browser: chrome

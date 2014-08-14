@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="acceptance" tests="1" assertions="1" failures="0" errors="0" time="55.975154">
-    <testcase file="HomeCept.php" name=" (HomeCept.php)" assertions="1" time="55.975154"/>
+  <testsuite name="acceptance" tests="1" assertions="1" failures="0" errors="0" time="4.346289">
+    <testcase file="HomeCept.php" name=" (HomeCept.php)" assertions="1" time="4.346289"/>
   </testsuite>
   <testsuite name="unit" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
   <testsuite name="functional" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>

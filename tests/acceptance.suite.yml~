@@ -13,9 +13,14 @@ modules:
    enabled: [WebDriver]
    config:
       WebDriver:
-         url: 'http://localhost/myapp/'
+         url: 'http://2gis.ru/novosibirsk/'
+         browser: firefox
+         window_size: 1024x768
+         capabilities:
+             unexpectedAlertBehaviour: 'accept'
+      WebDriver:
+         url: 'http://2gis.ru/novosibirsk/'
          browser: chrome
          window_size: 1024x768
-         wait: 10
          capabilities:
              unexpectedAlertBehaviour: 'accept'
