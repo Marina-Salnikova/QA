@@ -13,8 +13,8 @@ modules:
    enabled: [WebDriver]
    config:     
       WebDriver:
-         url: 'http://2gis.ru/novosibirsk/'
-         browser: chrome
+         url: 'http://localhost/frontend'
+         browser: firefox
          window_size: 1024x768
          capabilities:
              unexpectedAlertBehaviour: 'accept'
