@@ -26,7 +26,25 @@
       <file leaf-file-name="MarkerClickCept.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MarkerClickCept.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="32" selection-start="189" selection-end="189" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="255">
+            <state line="0" column="0" selection-start="0" selection-end="421" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="270">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReloadPageCept.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ReloadPageCept.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="2" selection-start="238" selection-end="238" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeeMarkerCept.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SeeMarkerCept.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="32" selection-start="84" selection-end="84" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -35,16 +53,16 @@
       <file leaf-file-name="_bootstrap.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="154" selection-start="234" selection-end="234" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
+            <state line="2" column="58" selection-start="138" selection-end="138" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindCept.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FindCept.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FindCept.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="32" selection-start="189" selection-end="189" vertical-scroll-proportion="0.07869884" vertical-offset="0" max-vertical-offset="953">
+            <state line="7" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
@@ -53,7 +71,16 @@
       <file leaf-file-name="SeeProvidersCept.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SeeProvidersCept.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
+            <state line="4" column="20" selection-start="98" selection-end="98" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CangeProviderCept.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CangeProviderCept.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="25" selection-start="327" selection-end="327" vertical-scroll-proportion="0.16111708" vertical-offset="0" max-vertical-offset="931">
               <folding />
             </state>
           </provider>
@@ -70,12 +97,15 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/MarkerClickTest.php" />
-        <option value="$PROJECT_DIR$/SeeProvidersCept.php" />
         <option value="$PROJECT_DIR$/HomeCept.php" />
         <option value="$PROJECT_DIR$/SeeFindCept.php" />
-        <option value="$PROJECT_DIR$/_bootstrap.php" />
         <option value="$PROJECT_DIR$/FindCept.php" />
+        <option value="$PROJECT_DIR$/SeeMarkerCept.php" />
+        <option value="$PROJECT_DIR$/_bootstrap.php" />
         <option value="$PROJECT_DIR$/MarkerClickCept.php" />
+        <option value="$PROJECT_DIR$/ReloadPageCept.php" />
+        <option value="$PROJECT_DIR$/SeeProvidersCept.php" />
+        <option value="$PROJECT_DIR$/CangeProviderCept.php" />
       </list>
     </option>
   </component>
@@ -112,6 +142,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -132,7 +163,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,11 +212,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -206,18 +236,42 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HomeCept.php">
+    <entry file="file://$PROJECT_DIR$/MarkerClickCept.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
+        <state line="5" column="32" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="255">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SeeFindCept.php">
+    <entry file="file://$PROJECT_DIR$/_bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="165">
+        <state line="2" column="154" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FindCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="32" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeeProvidersCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeeFindCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="16" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="165" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MarkerClickCept.php">
@@ -236,56 +290,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeCept.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebGuy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.33053514" vertical-offset="315" max-vertical-offset="40335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeeProvidersCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="6" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SeeFindCept.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="52" selection-end="70" vertical-scroll-proportion="0.047219306" vertical-offset="0" max-vertical-offset="953">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="52" selection-end="70" vertical-scroll-proportion="0.047219306" vertical-offset="0" max-vertical-offset="953" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HomeCept.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="51" selection-end="51" vertical-scroll-proportion="0.031479537" vertical-offset="0" max-vertical-offset="953">
-          <folding />
-        </state>
+        <state line="2" column="17" selection-start="51" selection-end="51" vertical-scroll-proportion="0.031479537" vertical-offset="0" max-vertical-offset="953" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_bootstrap.php">
+    <entry file="file://$PROJECT_DIR$/WebGuy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="154" selection-start="234" selection-end="234" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
+        <state line="470" column="33" selection-start="14423" selection-end="14423" vertical-scroll-proportion="0.6565875" vertical-offset="6427" max-vertical-offset="40335">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MarkerClickCept.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="32" selection-start="189" selection-end="189" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="255">
+        <state line="0" column="0" selection-start="0" selection-end="421" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReloadPageCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="2" selection-start="238" selection-end="238" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeeMarkerCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="32" selection-start="84" selection-end="84" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="58" selection-start="138" selection-end="138" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="120">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FindCept.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="32" selection-start="189" selection-end="189" vertical-scroll-proportion="0.07869884" vertical-offset="0" max-vertical-offset="953">
+        <state line="7" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeeProvidersCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="20" selection-start="98" selection-end="98" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CangeProviderCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="25" selection-start="327" selection-end="327" vertical-scroll-proportion="0.16111708" vertical-offset="0" max-vertical-offset="931">
           <folding />
         </state>
       </provider>
