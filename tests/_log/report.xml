@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="acceptance" tests="4" assertions="3" failures="0" errors="0" time="2.870674">
-    <testcase file="HomeCept.php" name=" (HomeCept.php)" assertions="0" time="0.410790"/>
-    <testcase file="MarkerClickCept.php" name=" (MarkerClickCept.php)" assertions="0" time="1.813218"/>
-    <testcase file="SeeFindCept.php" name=" (SeeFindCept.php)" assertions="1" time="0.255503"/>
-    <testcase file="SeeProvidersCept.php" name=" (SeeProvidersCept.php)" assertions="2" time="0.391163"/>
+  <testsuite name="acceptance" tests="5" assertions="3" failures="0" errors="0" time="4.508999">
+    <testcase file="FindCept.php" name=" (FindCept.php)" assertions="0" time="2.328027"/>
+    <testcase file="HomeCept.php" name=" (HomeCept.php)" assertions="0" time="0.336135"/>
+    <testcase file="MarkerClickCept.php" name=" (MarkerClickCept.php)" assertions="0" time="1.239941"/>
+    <testcase file="SeeFindCept.php" name=" (SeeFindCept.php)" assertions="1" time="0.277387"/>
+    <testcase file="SeeProvidersCept.php" name=" (SeeProvidersCept.php)" assertions="2" time="0.327509"/>
   </testsuite>
   <testsuite name="unit" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
   <testsuite name="functional" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
