@@ -10,7 +10,9 @@
 
 class_name: WebGuy
 modules:
-   enabled: [WebDriver]
+   enabled:
+     - PhpBrowser
+     -WebDriver
    config:     
       WebDriver:
          url: 'http://localhost/frontend'

@@ -1528,6 +1528,74 @@ class WebGuy extends \Codeception\AbstractGuy
         return new Maybe();
     }
 
+
+    /**
+     * [!] Method is generated. Documentation taken from corresponding module.
+     *
+     * If your page triggers an ajax request, you can perform it manually.
+     * This action sends a GET ajax request with specified params.
+     *
+     * See ->sendAjaxPostRequest for examples.
+     *
+     * @param $uri
+     * @param $params
+     * @see \Codeception\Lib\InnerBrowser::sendAjaxGetRequest()
+     */
+    public function sendAjaxGetRequest($uri, $params = null) {
+        return $this->scenario->runStep(new \Codeception\Step\Action('sendAjaxGetRequest', func_get_args()));
+    }
+
+    /**
+     * [!] Method is generated. Documentation taken from corresponding module.
+     *
+     * If your page triggers an ajax request, you can perform it manually.
+     * This action sends a POST ajax request with specified params.
+     * Additional params can be passed as array.
+     *
+     * Example:
+     *
+     * Imagine that by clicking checkbox you trigger ajax request which updates user settings.
+     * We emulate that click by running this ajax request manually.
+     *
+     * ``` php
+     * <?php
+     * $I->sendAjaxPostRequest('/updateSettings', array('notifications' => true)); // POST
+     * $I->sendAjaxGetRequest('/updateSettings', array('notifications' => true)); // GET
+     *
+     * ```
+     *
+     * @param $uri
+     * @param $params
+     * @see \Codeception\Lib\InnerBrowser::sendAjaxPostRequest()
+     */
+    public function sendAjaxPostRequest($uri, $params = null) {
+        return $this->scenario->runStep(new \Codeception\Step\Action('sendAjaxPostRequest', func_get_args()));
+    }
+
+    /**
+     * [!] Method is generated. Documentation taken from corresponding module.
+     *
+     * If your page triggers an ajax request, you can perform it manually.
+     * This action sends an ajax request with specified method and params.
+     *
+     * Example:
+     *
+     * You need to perform an ajax request specifying the HTTP method.
+     *
+     * ``` php
+     * <?php
+     * $I->sendAjaxRequest('PUT', /posts/7', array('title' => 'new title');
+     *
+     * ```
+     *
+     * @param $method
+     * @param $uri
+     * @param $params
+     * @see \Codeception\Lib\InnerBrowser::sendAjaxRequest()
+     */
+    public function sendAjaxRequest($method, $uri, $params = null) {
+        return $this->scenario->runStep(new \Codeception\Step\Action('sendAjaxRequest', func_get_args()));
+    }
  
     /**
      * This method is generated.

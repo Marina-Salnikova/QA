@@ -23,46 +23,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MarkerClickCept.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MarkerClickCept.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="27" selection-start="33" selection-end="33" vertical-scroll-proportion="0.015739769" vertical-offset="0" max-vertical-offset="953">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindEnglishCept.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/find/FindEnglishCept.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="39" selection-start="91" selection-end="91" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindWithDefisCept.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/find/FindWithDefisCept.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="33" selection-start="152" selection-end="152" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeatherCardCept.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeatherCardCept.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="2" selection-start="330" selection-end="330" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReloadPageCept.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ReloadPageCept.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="19" selection-start="110" selection-end="110" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
+            <state line="1" column="27" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="240">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendAjaxCept.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SendAjaxCept.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="114" selection-start="264" selection-end="264" vertical-scroll-proportion="0.047219306" vertical-offset="0" max-vertical-offset="953">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebGuy.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebGuy.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1597" column="5" selection-start="50235" selection-end="50235" vertical-scroll-proportion="-42.208332" vertical-offset="22927" max-vertical-offset="41355">
               <folding />
             </state>
           </provider>
@@ -95,7 +77,6 @@
         <option value="$PROJECT_DIR$/../../../backend/protected/config/main.php" />
         <option value="$USER_HOME$/workspace/Weather/backend/protected/config/main.php" />
         <option value="$PROJECT_DIR$/FindCept.php" />
-        <option value="$PROJECT_DIR$/ReloadPageCept.php" />
         <option value="$PROJECT_DIR$/WeatherCardCept.php" />
         <option value="$PROJECT_DIR$/SeeMarkerCept.php" />
         <option value="$PROJECT_DIR$/_bootstrap.php" />
@@ -104,6 +85,12 @@
         <option value="$PROJECT_DIR$/find/FindEnglishCept.php" />
         <option value="$PROJECT_DIR$/find/FindWithDefisCept.php" />
         <option value="$PROJECT_DIR$/MarkerClickCept.php" />
+        <option value="$PROJECT_DIR$/ReloadPageCept.php" />
+        <option value="$PROJECT_DIR$/../acceptance.suite.yml" />
+        <option value="$USER_HOME$/newcodception/tests/acceptance/HomeCept.php" />
+        <option value="$PROJECT_DIR$/WebGuy.php" />
+        <option value="$PROJECT_DIR$/SenndAjaxCept.php" />
+        <option value="$PROJECT_DIR$/SendAjaxCept.php" />
       </list>
     </option>
   </component>
@@ -212,16 +199,16 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -245,7 +232,9 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MarkerClickCept.php">
@@ -293,18 +282,6 @@
         <state line="1" column="0" selection-start="6" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="240" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HomeCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="51" selection-end="51" vertical-scroll-proportion="0.031479537" vertical-offset="0" max-vertical-offset="953" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebGuy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="470" column="33" selection-start="14423" selection-end="14423" vertical-scroll-proportion="0.6565875" vertical-offset="6427" max-vertical-offset="40335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SeeProvidersCept.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="977">
@@ -322,13 +299,6 @@
     <entry file="file://$USER_HOME$/workspace/Weather/backend/protected/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReloadPageCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="110" selection-end="110" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
@@ -354,27 +324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/find/FindEnglishCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="39" selection-start="91" selection-end="91" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find/FindWithDefisCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="33" selection-start="152" selection-end="152" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherCardCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="2" selection-start="330" selection-end="330" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="53" selection-start="527" selection-end="527" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
@@ -382,9 +331,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WeatherCardCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="2" selection-start="330" selection-end="330" vertical-scroll-proportion="0.2094522" vertical-offset="0" max-vertical-offset="931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find/FindWithDefisCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="33" selection-start="152" selection-end="152" vertical-scroll-proportion="0.07869884" vertical-offset="0" max-vertical-offset="953">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find/FindEnglishCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="39" selection-start="91" selection-end="91" vertical-scroll-proportion="0.047219306" vertical-offset="0" max-vertical-offset="953">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MarkerClickCept.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="27" selection-start="33" selection-end="33" vertical-scroll-proportion="0.015739769" vertical-offset="0" max-vertical-offset="953">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../acceptance.suite.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="17" selection-start="391" selection-end="391" vertical-scroll-proportion="0.19959058" vertical-offset="0" max-vertical-offset="977">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/newcodception/tests/functional.suite.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="977">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/newcodception/tests/acceptance/HomeCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="38" selection-start="44" selection-end="44" vertical-scroll-proportion="0.015739769" vertical-offset="0" max-vertical-offset="953">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/newcodception/tests/acceptance/AcceptanceTester.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1063" column="5" selection-start="33030" selection-end="33820" vertical-scroll-proportion="0.3488121" vertical-offset="15607" max-vertical-offset="23205">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HomeCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="0.062959075" vertical-offset="0" max-vertical-offset="953">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebGuy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1597" column="5" selection-start="50235" selection-end="50235" vertical-scroll-proportion="-42.208332" vertical-offset="22927" max-vertical-offset="41355">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReloadPageCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="27" selection-start="33" selection-end="33" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SendAjaxCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="114" selection-start="264" selection-end="264" vertical-scroll-proportion="0.047219306" vertical-offset="0" max-vertical-offset="953">
           <folding />
         </state>
       </provider>

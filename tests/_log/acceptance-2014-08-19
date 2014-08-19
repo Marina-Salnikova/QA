@@ -5,3 +5,8 @@
 [2014-08-19 09:52:25] MarkerClickCept.php.INFO: click ".//*[@class="leaflet-marker-icon dg-customization__marker dg-customization__marker_type_mushroom leaflet-zoom-animated leaflet-clickable"][1]" [] []
 [2014-08-19 09:52:25] MarkerClickCept.php.INFO: wait for element ".//div[@class="dg-popup__container"]",10 [] []
 [2014-08-19 09:52:25] MarkerClickCept.php.INFO: PASSED [] []
+[2014-08-19 11:18:44] SendAjaxCept.php.INFO: PASSED [] []
+[2014-08-19 11:19:23] SendAjaxCept.php.INFO: PASSED [] []
+[2014-08-19 11:37:47] SendAjaxCept.php.INFO: PASSED [] []
+[2014-08-19 11:38:58] SendAjaxCept.php.INFO: PASSED [] []
+[2014-08-19 11:39:10] SendAjaxCept.php.INFO: PASSED [] []
