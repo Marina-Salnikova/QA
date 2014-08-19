@@ -1,8 +1,8 @@
 <?php
 $I = new WebGuy($scenario);
 $I->amOnPage('');
-$I->fillField($search_field,'Москва');
-$I->click($submit);
+$I->resizeWindow(900,100);
+$I->resizeWindow(900,900);
 $I->waitForElement($marker, 10);
 $I->click($marker);
 $I->waitForElement($weather_card,10);

@@ -23,6 +23,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="MarkerClickCept.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MarkerClickCept.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="27" selection-start="33" selection-end="33" vertical-scroll-proportion="0.015739769" vertical-offset="0" max-vertical-offset="953">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="FindEnglishCept.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/find/FindEnglishCept.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_bootstrap.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_bootstrap.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="53" selection-start="527" selection-end="527" vertical-scroll-proportion="0.095744684" vertical-offset="0" max-vertical-offset="940">
+            <state line="6" column="53" selection-start="527" selection-end="527" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
@@ -85,7 +94,6 @@
         <option value="$PROJECT_DIR$/CangeProviderCept.php" />
         <option value="$PROJECT_DIR$/../../../backend/protected/config/main.php" />
         <option value="$USER_HOME$/workspace/Weather/backend/protected/config/main.php" />
-        <option value="$PROJECT_DIR$/MarkerClickCept.php" />
         <option value="$PROJECT_DIR$/FindCept.php" />
         <option value="$PROJECT_DIR$/ReloadPageCept.php" />
         <option value="$PROJECT_DIR$/WeatherCardCept.php" />
@@ -95,6 +103,7 @@
         <option value="$PROJECT_DIR$/find/FindSmalCityCept.php" />
         <option value="$PROJECT_DIR$/find/FindEnglishCept.php" />
         <option value="$PROJECT_DIR$/find/FindWithDefisCept.php" />
+        <option value="$PROJECT_DIR$/MarkerClickCept.php" />
       </list>
     </option>
   </component>
@@ -324,13 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MarkerClickCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="71" selection-start="340" selection-end="340" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SeeMarkerCept.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="26" selection-start="78" selection-end="78" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="165">
@@ -375,7 +377,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="53" selection-start="527" selection-end="527" vertical-scroll-proportion="0.095744684" vertical-offset="0" max-vertical-offset="940">
+        <state line="6" column="53" selection-start="527" selection-end="527" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MarkerClickCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="27" selection-start="33" selection-end="33" vertical-scroll-proportion="0.015739769" vertical-offset="0" max-vertical-offset="953">
           <folding />
         </state>
       </provider>

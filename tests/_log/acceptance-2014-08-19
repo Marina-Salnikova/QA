@@ -1,0 +1,7 @@
+[2014-08-19 09:52:24] MarkerClickCept.php.INFO: am on page "" [] []
+[2014-08-19 09:52:24] MarkerClickCept.php.INFO: resize window 900,100 [] []
+[2014-08-19 09:52:25] MarkerClickCept.php.INFO: resize window 900,900 [] []
+[2014-08-19 09:52:25] MarkerClickCept.php.INFO: wait for element ".//*[@class="leaflet-marker-icon dg-customization__marker dg-customization__marker_type_mushroom leaflet-zoom-animated leaflet-clickable"][1]",10 [] []
+[2014-08-19 09:52:25] MarkerClickCept.php.INFO: click ".//*[@class="leaflet-marker-icon dg-customization__marker dg-customization__marker_type_mushroom leaflet-zoom-animated leaflet-clickable"][1]" [] []
+[2014-08-19 09:52:25] MarkerClickCept.php.INFO: wait for element ".//div[@class="dg-popup__container"]",10 [] []
+[2014-08-19 09:52:25] MarkerClickCept.php.INFO: PASSED [] []
