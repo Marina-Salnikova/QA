@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="api" tests="1" assertions="4" failures="1" errors="0" time="0.019420">
+    <testcase name="WeaterInCity" file="/home/user/codception2.0/tests/api/WeaterInCityCept.php" feature="find weather in city" assertions="4" time="0.019420">
+      <failure type="PHPUnit_Framework_ExpectationFailedException">find weather in city (WeaterInCityCept)
+REST response contains
+Failed asserting that 'callback([{"city":null,"date":null,"temp":null,"humidity":null,"pressure":null,"latitude":null,"longitude":null,"weather":null,"provider":null}])' does not contain "null".
+
+/home/user/codception2.0/tests/api/ApiTester.php:1931
+/home/user/codception2.0/tests/api/WeaterInCityCept.php:8
+/home/user/codception2.0/codecept.phar:7
+</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
