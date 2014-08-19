@@ -1,11 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="acceptance" tests="5" assertions="3" failures="0" errors="0" time="4.508999">
-    <testcase file="FindCept.php" name=" (FindCept.php)" assertions="0" time="2.328027"/>
-    <testcase file="HomeCept.php" name=" (HomeCept.php)" assertions="0" time="0.336135"/>
-    <testcase file="MarkerClickCept.php" name=" (MarkerClickCept.php)" assertions="0" time="1.239941"/>
-    <testcase file="SeeFindCept.php" name=" (SeeFindCept.php)" assertions="1" time="0.277387"/>
-    <testcase file="SeeProvidersCept.php" name=" (SeeProvidersCept.php)" assertions="2" time="0.327509"/>
+  <testsuite name="acceptance" tests="13" assertions="14" failures="2" errors="1" time="17.797270">
+    <testcase file="CangeProviderCept.php" name=" (CangeProviderCept.php)" assertions="5" time="1.511885"/>
+    <testcase file="HomeCept.php" name=" (HomeCept.php)" assertions="0" time="0.087261"/>
+    <testcase file="MarkerClickCept.php" name=" (MarkerClickCept.php)" assertions="0" time="0.540320"/>
+    <testcase file="ReloadPageCept.php" name=" (ReloadPageCept.php)" assertions="1" time="1.113835">
+      <failure type="PHPUnit_Framework_ExpectationFailedException"> (ReloadPageCept.php)
+Failed asserting that 
+--&gt;  &lt;bold&gt;/frontend/&lt;/bold&gt;&lt;info&gt;&lt;!DOCTYPE html&gt;
+&lt;a0:html xmlns:a0="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html"&gt;&lt;a0:head lang="en"&gt;
+        &lt;a0:title&gt;Самый мощный агригатор погоды IN THE WORLD&lt;/a0:title&gt;
+        &lt;a0:meta content="text/html;charset=utf-8" http-equiv="Content-Type" /&gt;
+ &lt;/info&gt;
+&lt;debug&gt;[Content too long to display. See complete response in '_log' directory]&lt;/debug&gt;
+--&gt; contains "Москва".
+
+/home/user/tests/acceptance/WebGuy.php:365
+/home/user/tests/acceptance/ReloadPageCept.php:8
+/home/user/codecept.phar:7
+</failure>
+    </testcase>
+    <testcase file="SeeMarkerCept.php" name=" (SeeMarkerCept.php)" assertions="0" time="9.777694">
+      <error type="NoSuchElementException"> (SeeMarkerCept.php)
+NoSuchElementException: Unable to locate element: {"method":"xpath","selector":".//*[@class=\"leaflet-marker-icon dg-customization__marker dg-customization__marker_type_mushroom leaflet-zoom-animated leaflet-clickable\"][1]"}
+Command duration or timeout: 14 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d', time: '2014-06-03 17:42:03'
+System info: host: 'UbuntuPC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.2.0-23-generic', java.version: '1.7.0_55'
+Session ID: a119fdb2-0527-4de0-8fde-8f44fe07f418
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=LINUX, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=31.0}]
+
+/home/user/tests/acceptance/WebGuy.php:2231
+/home/user/tests/acceptance/SeeMarkerCept.php:4
+/home/user/codecept.phar:7
+</error>
+    </testcase>
+    <testcase file="SeeProvidersCept.php" name=" (SeeProvidersCept.php)" assertions="2" time="0.430540"/>
+    <testcase file="WeatherCardCept.php" name=" (WeatherCardCept.php)" assertions="5" time="0.976115">
+      <failure type="PHPUnit_Framework_ExpectationFailedException"> (WeatherCardCept.php)
+Failed asserting that 
+--&gt;  &lt;bold&gt;/frontend/&lt;/bold&gt;&lt;info&gt;&lt;!DOCTYPE html&gt;
+&lt;a0:html xmlns:a0="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html" style="-moz-user-select: none;"&gt;&lt;a0:head lang="en"&gt;
+        &lt;a0:title&gt;Самый мощный агригатор погоды IN THE WORLD&lt;/a0:title&gt;
+        &lt;a0:meta content="text/html;charset=utf-8&lt;/info&gt;
+&lt;debug&gt;[Content too long to display. See complete response in '_log' directory]&lt;/debug&gt;
+--&gt; does not contain "undefined".
+
+/home/user/tests/acceptance/WebGuy.php:430
+/home/user/tests/acceptance/WeatherCardCept.php:13
+/home/user/codecept.phar:7
+</failure>
+    </testcase>
+    <testcase file="find/FindBigCityCept.php" name=" (find/FindBigCityCept.php)" assertions="0" time="0.626662"/>
+    <testcase file="find/FindCept.php" name=" (find/FindCept.php)" assertions="0" time="0.789954"/>
+    <testcase file="find/FindEnglishCept.php" name=" (find/FindEnglishCept.php)" assertions="0" time="0.488883"/>
+    <testcase file="find/FindSmalCityCept.php" name=" (find/FindSmalCityCept.php)" assertions="0" time="0.555015"/>
+    <testcase file="find/FindWithDefisCept.php" name=" (find/FindWithDefisCept.php)" assertions="0" time="0.615931"/>
+    <testcase file="find/SeeFindCept.php" name=" (find/SeeFindCept.php)" assertions="1" time="0.283175"/>
   </testsuite>
   <testsuite name="unit" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
   <testsuite name="functional" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>

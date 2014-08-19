@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="api" tests="1" assertions="4" failures="1" errors="0" time="0.019420">
-    <testcase name="WeaterInCity" file="/home/user/codception2.0/tests/api/WeaterInCityCept.php" feature="find weather in city" assertions="4" time="0.019420">
-      <failure type="PHPUnit_Framework_ExpectationFailedException">find weather in city (WeaterInCityCept)
-REST response contains
-Failed asserting that 'callback([{"city":null,"date":null,"temp":null,"humidity":null,"pressure":null,"latitude":null,"longitude":null,"weather":null,"provider":null}])' does not contain "null".
+  <testsuite name="api" tests="3" assertions="0" failures="0" errors="3" time="0.005144">
+    <testcase name="WeatherByCoord" file="/home/user/codception2.0/tests/api/WeatherByCoordCept.php" feature="find weather in city" assertions="0" time="0.002374">
+      <error type="ErrorException">find weather in city (WeatherByCoordCept)
+ErrorException: Undefined variable: coord
 
-/home/user/codception2.0/tests/api/ApiTester.php:1931
-/home/user/codception2.0/tests/api/WeaterInCityCept.php:8
+/home/user/codception2.0/tests/api/WeatherByCoordCept.php:4
 /home/user/codception2.0/codecept.phar:7
-</failure>
+</error>
+    </testcase>
+    <testcase name="WeatherInArea" file="/home/user/codception2.0/tests/api/WeatherInAreaCept.php" feature="find weather in city" assertions="0" time="0.001289">
+      <error type="ErrorException">find weather in city (WeatherInAreaCept)
+ErrorException: Undefined variable: area
+
+/home/user/codception2.0/tests/api/WeatherInAreaCept.php:4
+/home/user/codception2.0/codecept.phar:7
+</error>
+    </testcase>
+    <testcase name="WeatherInCity" file="/home/user/codception2.0/tests/api/WeatherInCityCept.php" feature="find weather in city" assertions="0" time="0.001481">
+      <error type="ErrorException">find weather in city (WeatherInCityCept)
+ErrorException: Undefined variable: city
+
+/home/user/codception2.0/tests/api/WeatherInCityCept.php:4
+/home/user/codception2.0/codecept.phar:7
+</error>
     </testcase>
   </testsuite>
 </testsuites>
