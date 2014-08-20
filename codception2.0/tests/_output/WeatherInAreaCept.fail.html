@@ -167,8 +167,12 @@ pre span.error-ln {
                     LEFT JOIN weather w ON w.station_id = ws.id<br />
                     LEFT JOIN provider pr ON w.provider_id = pr.id<br />
                     LEFT JOIN wind_deg wd ON w.wind_deg = wd.id<br />
-                    WHERE  (c.name_en LIKE :city OR c.name_ru LIKE :city)<br />
-                    AND date_forecast = :today AND w.provider_id = :provider	</p>
+                    WHERE ws.id IN (SELECT id FROM weatherstation<br />
+                                    WHERE Contains(GeomFromText(&#039;Polygon((55.174534 82.560544, 55.174534 83.318972, 54.843024 83.318972,55.174534 83.318972, 55.174534 82.560544))&#039;), point))<br />
+                    AND date_forecast = :today AND w.provider_id = :provider<br />
+                    GROUP BY name_ru<br />
+                    ORDER BY population DESC<br />
+                    LIMIT 30	</p>
 
 	<div class="source">
 		<p class="file">/home/user/workspace/Weather/backend/framework/framework/db/CDbCommand.php(543)</p>
@@ -231,19 +235,19 @@ pre span.error-ln {
 				<div class="trace-file">
 											<div class="plus">+</div>
 						<div class="minus">–</div>
-										&nbsp;/home/user/workspace/Weather/backend/protected/controllers/WeatherController.php(174): <strong>CDbCommand</strong>-><strong>queryAll</strong>()				</div>
+										&nbsp;/home/user/workspace/Weather/backend/protected/controllers/WeatherController.php(207): <strong>CDbCommand</strong>-><strong>queryAll</strong>()				</div>
 
-				<div class="code"><pre><span class="ln">169</span>                 echo $city.&quot;&lt;br&gt;&quot;;
-<span class="ln">170</span>                 $weather_cache = Yii::app()-&gt;db-&gt;createCommand($sql)
-<span class="ln">171</span>                     -&gt;bindParam(&#039;:city&#039;, $city, PDO::PARAM_STR)
-<span class="ln">172</span>                     -&gt;bindParam(&#039;:provider&#039;, $provider, PDO::PARAM_STR)
-<span class="ln">173</span>                     -&gt;bindParam(&#039;:today&#039;, $today, PDO::PARAM_STR)
-<span class="error"><span class="ln error-ln">174</span>                     -&gt;queryAll();
-</span><span class="ln">175</span>                 Yii::app()-&gt;cache-&gt;set(&quot;find&quot;.$city, $weather_cache, 86400);
-<span class="ln">176</span>             }
-<span class="ln">177</span>         }else if(isset($lat) &amp;&amp; isset($lon)){
-<span class="ln">178</span>             $weather_cache = Yii::app()-&gt;cache-&gt;get(&quot;find&quot;.$lat.$lon);
-<span class="ln">179</span>             if($weather_cache == false){
+				<div class="code"><pre><span class="ln">202</span>                     LIMIT 30&quot;;
+<span class="ln">203</span> 
+<span class="ln">204</span>                 $weather_cache = Yii::app()-&gt;db-&gt;createCommand($sql)
+<span class="ln">205</span>                     -&gt;bindParam(&#039;:provider&#039;, $provider, PDO::PARAM_STR)
+<span class="ln">206</span>                     -&gt;bindParam(&#039;:today&#039;, $today, PDO::PARAM_STR)
+<span class="error"><span class="ln error-ln">207</span>                     -&gt;queryAll();
+</span><span class="ln">208</span>                 Yii::app()-&gt;cache-&gt;set(&quot;find&quot;.$lon_top.$lat_top.$lon_bottom.$lat_bottom, $weather_cache, 86400);
+<span class="ln">209</span>             }
+<span class="ln">210</span>         } else{
+<span class="ln">211</span>             $ip = $_SERVER[&quot;REMOTE_ADDR&quot;];
+<span class="ln">212</span>             $city = ParserIP::parse($ip);
 </pre></div>			</td>
 		</tr>
 						<tr class="trace core collapsed">
@@ -273,7 +277,7 @@ pre span.error-ln {
 				<div class="trace-file">
 											<div class="plus">+</div>
 						<div class="minus">–</div>
-										&nbsp;/home/user/workspace/Weather/backend/framework/framework/web/CController.php(308): <strong>CInlineAction</strong>-><strong>runWithParams</strong>(array(&quot;r&quot; =&gt; &quot;weather/find&quot;, &quot;city&quot; =&gt; &quot;Novosibirsk&quot;, &quot;pr&quot; =&gt; &quot;ya&quot;))				</div>
+										&nbsp;/home/user/workspace/Weather/backend/framework/framework/web/CController.php(308): <strong>CInlineAction</strong>-><strong>runWithParams</strong>(array(&quot;r&quot; =&gt; &quot;weather/find&quot;, &quot;lon_top&quot; =&gt; &quot;82.560544&quot;, &quot;lat_top&quot; =&gt; &quot;55.174534&quot;, &quot;lon_bottom&quot; =&gt; &quot;83.318972&quot;, ...))				</div>
 
 				<div class="code"><pre><span class="ln">303</span>     {
 <span class="ln">304</span>         $priorAction=$this-&gt;_action;

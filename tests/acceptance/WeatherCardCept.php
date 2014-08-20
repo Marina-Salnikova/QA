@@ -8,7 +8,5 @@ $I->click($marker);
 $I->waitForElement($weather_card,10);
 $I->see('Влажность');
 $I->see('Давление');
-$I->see('Скорость ветра');
-$I->see('Направление ветра');
 $I->dontSee('undefined');
 ?>

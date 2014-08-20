@@ -13,7 +13,7 @@ modules:
    enabled: [WebDriver]
    config:     
       WebDriver:
-         url: 'http://localhost/frontend'
+         url: 'http://localhost/frontend/#'
          browser: firefox
          window_size: 1024x768
          capabilities:
