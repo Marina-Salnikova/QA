@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_bootstrap.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_bootstrap.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="38" selection-start="318" selection-end="318" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="195">
+            <state line="7" column="21" selection-start="340" selection-end="340" vertical-scroll-proportion="0.11017838" vertical-offset="0" max-vertical-offset="953">
               <folding />
             </state>
           </provider>
@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZoomPlusCept.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ZoomPlusCept.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/map/ZoomPlusCept.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.14165792" vertical-offset="0" max-vertical-offset="953">
+            <state line="9" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
@@ -109,8 +109,8 @@
         <option value="$PROJECT_DIR$/map/SeeMarkerCept.php" />
         <option value="$PROJECT_DIR$/map/ClickMarkerCept.php" />
         <option value="$PROJECT_DIR$/WebGuy.php" />
-        <option value="$PROJECT_DIR$/_bootstrap.php" />
         <option value="$PROJECT_DIR$/map/ZoomPlusCept.php" />
+        <option value="$PROJECT_DIR$/_bootstrap.php" />
       </list>
     </option>
   </component>
@@ -535,13 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="38" selection-start="318" selection-end="318" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ptoviders/ProviderChangeCept.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="17" selection-start="174" selection-end="174" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="225">
@@ -551,7 +544,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/map/ZoomPlusCept.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.14165792" vertical-offset="0" max-vertical-offset="953">
+        <state line="9" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="21" selection-start="340" selection-end="340" vertical-scroll-proportion="0.11017838" vertical-offset="0" max-vertical-offset="953">
           <folding />
         </state>
       </provider>
