@@ -4,5 +4,5 @@ $marker='.//div[@class="marker clickable cluster"][1]';
 $marker2='.//div[@class="marker clickable cluster"][1]';
 $search_field='.//*[@class="search__input"]';
 $submit='.//*[@class="search__submit"]';
-$weather_card='.//div[@class="cardWeatheradd"]';
+$weather_card='.//div[@class="card"]';
 $city= '#cards_city';
