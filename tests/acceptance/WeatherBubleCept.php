@@ -6,7 +6,5 @@ $I->click($submit);
 $I->waitForElement($marker, 10);
 $I->click($marker);
 $I->waitForElement($weather_card,10);
-$I->see('Влажность');
-$I->see('Давление');
 $I->dontSee('undefined');
 ?>
