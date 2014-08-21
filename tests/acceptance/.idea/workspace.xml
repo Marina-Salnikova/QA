@@ -23,91 +23,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FindBigCityCept.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/find/FindBigCityCept.php">
+      <file leaf-file-name="_bootstrap.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="33" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SeeMarkerCept.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeeMarkerCept.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="19" selection-start="84" selection-end="84" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SeeProvidersCept.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeeProvidersCept.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="2" selection-start="0" selection-end="123" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="195">
+            <state line="7" column="21" selection-start="350" selection-end="350" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ProviderChangeCept.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProviderChangeCept.php">
+        <entry file="file://$PROJECT_DIR$/ptoviders/ProviderChangeCept.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="36" selection-start="208" selection-end="208" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="330">
+            <state line="8" column="17" selection-start="174" selection-end="174" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="225">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeatherBubleCept.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WeatherBubleCept.php">
+      <file leaf-file-name="ZoomPlusCept.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/map/ZoomPlusCept.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="227" selection-end="227" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindCept.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/find/FindCept.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindEnglishCept.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/find/FindEnglishCept.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="2" selection-start="0" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindSmalCityCept.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/find/FindSmalCityCept.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="39" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZoomPlusCept.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZoomPlusCept.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="19" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_bootstrap.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_bootstrap.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="48" selection-start="328" selection-end="328" vertical-scroll-proportion="0.09667025" vertical-offset="0" max-vertical-offset="931">
+            <state line="5" column="19" selection-start="109" selection-end="109" vertical-scroll-proportion="0.07869884" vertical-offset="0" max-vertical-offset="953">
               <folding />
             </state>
           </provider>
@@ -146,15 +83,25 @@
         <option value="$USER_HOME$/codception2.0/tests/api/WeatherByCoordCept.php" />
         <option value="$PROJECT_DIR$/ZoomMinusCept.php" />
         <option value="$PROJECT_DIR$/ClickMarkerCept.php" />
-        <option value="$PROJECT_DIR$/WeatherCardCept.php" />
         <option value="$PROJECT_DIR$/ZoomPlusCept.php" />
         <option value="$PROJECT_DIR$/MoveBackForwardCept.php" />
         <option value="$PROJECT_DIR$/ReloadPageCept.php" />
         <option value="$PROJECT_DIR$/SeeMarkerCept.php" />
         <option value="$PROJECT_DIR$/SeeProvidersCept.php" />
-        <option value="$PROJECT_DIR$/ProviderChangeCept.php" />
-        <option value="$PROJECT_DIR$/WeatherBubleCept.php" />
         <option value="$PROJECT_DIR$/_bootstrap.php" />
+        <option value="$PROJECT_DIR$/WeatherBubleCept.php" />
+        <option value="$PROJECT_DIR$/find/FindCept.php" />
+        <option value="$PROJECT_DIR$/find/FindBigCityCept.php" />
+        <option value="$PROJECT_DIR$/WeatherCacdDataCept.php" />
+        <option value="$PROJECT_DIR$/WeatherCardCept.php" />
+        <option value="$PROJECT_DIR$/ProviderChangeCept.php" />
+        <option value="$PROJECT_DIR$/ptoviders/ProviderChangeCept.php" />
+        <option value="$PROJECT_DIR$/ptoviders/OwProviderCept.php" />
+        <option value="$PROJECT_DIR$/ptoviders/WuProviderCept.php" />
+        <option value="$PROJECT_DIR$/ptoviders/YaProviderCept.php" />
+        <option value="$PROJECT_DIR$/map/SeeMarkerCept.php" />
+        <option value="$PROJECT_DIR$/map/ClickMarkerCept.php" />
+        <option value="$PROJECT_DIR$/map/ZoomPlusCept.php" />
       </list>
     </option>
   </component>
@@ -207,6 +154,48 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="acceptance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="acceptance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="acceptance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weathercard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="acceptance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="acceptance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ptoviders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="acceptance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="acceptance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -301,27 +290,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ClickMarkerCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherBubleCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="144" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClickMarkerCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/find/FindEnglishCept.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="2" selection-start="0" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
@@ -332,27 +300,6 @@
     <entry file="file://$PROJECT_DIR$/find/FindSmalCityCept.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="39" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZoomPlusCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherBubleCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="144" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClickMarkerCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
@@ -374,13 +321,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SeeMarkerCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/find/FindCept.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
@@ -398,20 +338,6 @@
     <entry file="file://$PROJECT_DIR$/find/FindSmalCityCept.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="39" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZoomPlusCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClickMarkerCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
@@ -527,18 +453,6 @@
         <state line="2" column="17" selection-start="50" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="165" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/find/FindSmalCityCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="39" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/codception2.0/tests/api/WeatherInAreaCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="2" selection-start="0" selection-end="349" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="240" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/codception2.0/tests/api/WeatherByCoordCept.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="61" selection-start="67" selection-end="67" vertical-scroll-proportion="0.016111707" vertical-offset="0" max-vertical-offset="931" />
@@ -554,72 +468,100 @@
         <state line="2596" column="5" selection-start="82545" selection-end="82545" vertical-scroll-proportion="-7.6666665" vertical-offset="38534" max-vertical-offset="41355" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/find/FindBigCityCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="33" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/find/FindEnglishCept.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="0" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
+        <state line="6" column="2" selection-start="144" selection-end="144" vertical-scroll-proportion="0.09667025" vertical-offset="0" max-vertical-offset="931">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ZoomPlusCept.php">
+    <entry file="file://$PROJECT_DIR$/find/FindSmalCityCept.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClickMarkerCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="37" selection-start="177" selection-end="177" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="225">
+        <state line="3" column="39" selection-start="91" selection-end="91" vertical-scroll-proportion="0.048335124" vertical-offset="0" max-vertical-offset="931">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/find/FindCept.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="977">
+        <state line="5" column="32" selection-start="143" selection-end="143" vertical-scroll-proportion="0.07869884" vertical-offset="0" max-vertical-offset="953">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SeeProvidersCept.php">
+    <entry file="file://$PROJECT_DIR$/find/FindBigCityCept.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="0" selection-end="123" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeeMarkerCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="84" selection-end="84" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProviderChangeCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="36" selection-start="208" selection-end="208" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WeatherBubleCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="227" selection-end="227" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="225">
+        <state line="6" column="2" selection-start="152" selection-end="152" vertical-scroll-proportion="0.09443861" vertical-offset="0" max-vertical-offset="953">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="48" selection-start="328" selection-end="328" vertical-scroll-proportion="0.09667025" vertical-offset="0" max-vertical-offset="931">
+        <state line="7" column="21" selection-start="350" selection-end="350" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/SeeMarkerCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.09667025" vertical-offset="0" max-vertical-offset="931">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ptoviders/YaProviderCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="2" selection-start="128" selection-end="128" vertical-scroll-proportion="0.11017838" vertical-offset="0" max-vertical-offset="953">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ptoviders/WuProviderCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="14" selection-start="89" selection-end="89" vertical-scroll-proportion="0.062959075" vertical-offset="0" max-vertical-offset="953">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ptoviders/SeeProvidersCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="2" selection-start="123" selection-end="123" vertical-scroll-proportion="0.09443861" vertical-offset="0" max-vertical-offset="953">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ptoviders/OwProviderCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="128" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/ClickMarkerCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="37" selection-start="177" selection-end="177" vertical-scroll-proportion="0.11017838" vertical-offset="0" max-vertical-offset="953">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ptoviders/ProviderChangeCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="174" selection-end="174" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/codception2.0/tests/api/WeatherInAreaCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="36" selection-start="346" selection-end="346" vertical-scroll-proportion="0.12591815" vertical-offset="0" max-vertical-offset="953">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/ZoomPlusCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="109" selection-end="109" vertical-scroll-proportion="0.07869884" vertical-offset="0" max-vertical-offset="953">
           <folding />
         </state>
       </provider>

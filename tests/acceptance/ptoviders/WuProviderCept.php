@@ -1,6 +1,8 @@
 <?php
 $I = new WebGuy($scenario);
 $I->amOnPage('');
-$I->wait(5);
+$I->seeElement('#wu');
+$I->click('#wu');
+$I->wait(2);
 $I->click($marker);
 ?>
