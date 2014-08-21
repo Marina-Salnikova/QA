@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>CDbException</title>
+<title>CException</title>
 
 <style type="text/css">
 /*<![CDATA[*/
@@ -158,45 +158,38 @@ pre span.error-ln {
 
 <body>
 <div class="container">
-	<h1>CDbException</h1>
+	<h1>CException</h1>
 
 	<p class="message">
-		CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column &#039;precipitation&#039; in &#039;field list&#039;. The SQL statement executed was: SELECT name_ru as city, date_forecast as date, ROUND(AVG(temp)) as temp, ROUND(AVG(humidity)) as humidity,<br />
-	                    ROUND(AVG(pressure)) as pressure, latitude, longitude, precipitation as weather, pr.name as provider FROM weatherstation ws<br />
-                    LEFT JOIN city c ON c.id = ws.city_id<br />
-                    LEFT JOIN weather w ON w.station_id = ws.id<br />
-                    LEFT JOIN provider pr ON w.provider_id = pr.id<br />
-                    LEFT JOIN wind_deg wd ON w.wind_deg = wd.id<br />
-                    WHERE  (c.name_en LIKE :city OR c.name_ru LIKE :city)<br />
-                    AND date_forecast = :today AND w.provider_id = :provider	</p>
+		CMemCache requires PHP memcached extension to be loaded.	</p>
 
 	<div class="source">
-		<p class="file">/home/user/workspace/Weather/backend/framework/framework/db/CDbCommand.php(543)</p>
-		<div class="code"><pre><span class="ln">531</span>         {
-<span class="ln">532</span>             if($this-&gt;_connection-&gt;enableProfiling)
-<span class="ln">533</span>                 Yii::endProfile(&#039;system.db.CDbCommand.query(&#039;.$this-&gt;getText().$par.&#039;)&#039;,&#039;system.db.CDbCommand.query&#039;);
-<span class="ln">534</span> 
-<span class="ln">535</span>             $errorInfo=$e instanceof PDOException ? $e-&gt;errorInfo : null;
-<span class="ln">536</span>             $message=$e-&gt;getMessage();
-<span class="ln">537</span>             Yii::log(Yii::t(&#039;yii&#039;,&#039;CDbCommand::{method}() failed: {error}. The SQL statement executed was: {sql}.&#039;,
-<span class="ln">538</span>                 array(&#039;{method}&#039;=&gt;$method, &#039;{error}&#039;=&gt;$message, &#039;{sql}&#039;=&gt;$this-&gt;getText().$par)),CLogger::LEVEL_ERROR,&#039;system.db.CDbCommand&#039;);
-<span class="ln">539</span> 
-<span class="ln">540</span>             if(YII_DEBUG)
-<span class="ln">541</span>                 $message.=&#039;. The SQL statement executed was: &#039;.$this-&gt;getText().$par;
-<span class="ln">542</span> 
-<span class="error"><span class="ln error-ln">543</span>             throw new CDbException(Yii::t(&#039;yii&#039;,&#039;CDbCommand failed to execute the SQL statement: {error}&#039;,
-</span><span class="ln">544</span>                 array(&#039;{error}&#039;=&gt;$message)),(int)$e-&gt;getCode(),$errorInfo);
-<span class="ln">545</span>         }
-<span class="ln">546</span>     }
-<span class="ln">547</span> 
-<span class="ln">548</span>     /**
-<span class="ln">549</span>      * Builds a SQL SELECT statement from the given query specification.
-<span class="ln">550</span>      * @param array $query the query specification in name-value pairs. The following
-<span class="ln">551</span>      * query options are supported: {@link select}, {@link distinct}, {@link from},
-<span class="ln">552</span>      * {@link where}, {@link join}, {@link group}, {@link having}, {@link order},
-<span class="ln">553</span>      * {@link limit}, {@link offset} and {@link union}.
-<span class="ln">554</span>      * @throws CDbException if &quot;from&quot; key is not present in given query parameter
-<span class="ln">555</span>      * @return string the SQL statement
+		<p class="file">/home/user/workspace/Weather/backend/protected/controllers/WeatherController.php(163)</p>
+		<div class="code"><pre><span class="ln">151</span>         $lat = Yii::app()-&gt;request-&gt;getQuery(&#039;lat&#039;);
+<span class="ln">152</span>         $lon = Yii::app()-&gt;request-&gt;getQuery(&#039;lon&#039;);
+<span class="ln">153</span>         $lon_top = Yii::app()-&gt;request-&gt;getQuery(&#039;lon_top&#039;);
+<span class="ln">154</span>         $lat_top = Yii::app()-&gt;request-&gt;getQuery(&#039;lat_top&#039;);
+<span class="ln">155</span>         $lon_bottom = Yii::app()-&gt;request-&gt;getQuery(&#039;lon_bottom&#039;);
+<span class="ln">156</span>         $lat_bottom = Yii::app()-&gt;request-&gt;getQuery(&#039;lat_bottom&#039;);
+<span class="ln">157</span>         $provider = Yii::app()-&gt;request-&gt;getQuery(&#039;pr&#039;, &#039;ya&#039;);
+<span class="ln">158</span>         $provider = strtr($provider, $pr);
+<span class="ln">159</span>         $today = date(&quot;Y-m-d&quot;);
+<span class="ln">160</span> 
+<span class="ln">161</span>         if(isset($city)) {
+<span class="ln">162</span>             $city = mb_convert_case($city, MB_CASE_LOWER , &quot;UTF-8&quot;);
+<span class="error"><span class="ln error-ln">163</span>             $weather_cache = Yii::app()-&gt;cache-&gt;get(&quot;find&quot;.$city);
+</span><span class="ln">164</span>             if($weather_cache == false){
+<span class="ln">165</span> 
+<span class="ln">166</span>                 $sql = &quot;SELECT $out_from_db FROM $join
+<span class="ln">167</span>                     WHERE  (c.name_en LIKE :city OR c.name_ru LIKE :city)
+<span class="ln">168</span>                     AND date_forecast = :today AND w.provider_id = :provider&quot;;
+<span class="ln">169</span>                 echo $city.&quot;&lt;br&gt;&quot;;
+<span class="ln">170</span>                 $weather_cache = Yii::app()-&gt;db-&gt;createCommand($sql)
+<span class="ln">171</span>                     -&gt;bindParam(&#039;:city&#039;, $city, PDO::PARAM_STR)
+<span class="ln">172</span>                     -&gt;bindParam(&#039;:provider&#039;, $provider, PDO::PARAM_STR)
+<span class="ln">173</span>                     -&gt;bindParam(&#039;:today&#039;, $today, PDO::PARAM_STR)
+<span class="ln">174</span>                     -&gt;queryAll();
+<span class="ln">175</span>                 Yii::app()-&gt;cache-&gt;set(&quot;find&quot;.$city, $weather_cache, 86400);
 </pre></div>	</div>
 
 	<div class="traces">
@@ -209,46 +202,90 @@ pre span.error-ln {
 				<div class="trace-file">
 											<div class="plus">+</div>
 						<div class="minus">–</div>
-										&nbsp;/home/user/workspace/Weather/backend/framework/framework/db/CDbCommand.php(396): <strong>CDbCommand</strong>-><strong>queryInternal</strong>(&quot;fetchAll&quot;, array(2), array())				</div>
+										&nbsp;/home/user/workspace/Weather/backend/framework/framework/caching/CMemCache.php(89): <strong>CMemCache</strong>-><strong>getMemCache</strong>()				</div>
 
-				<div class="code"><pre><span class="ln">391</span>      * An empty array is returned if the query results in nothing.
-<span class="ln">392</span>      * @throws CException execution failed
-<span class="ln">393</span>      */
-<span class="ln">394</span>     public function queryAll($fetchAssociative=true,$params=array())
-<span class="ln">395</span>     {
-<span class="error"><span class="ln error-ln">396</span>         return $this-&gt;queryInternal(&#039;fetchAll&#039;,$fetchAssociative ? $this-&gt;_fetchMode : PDO::FETCH_NUM, $params);
-</span><span class="ln">397</span>     }
-<span class="ln">398</span> 
-<span class="ln">399</span>     /**
-<span class="ln">400</span>      * Executes the SQL statement and returns the first row of the result.
-<span class="ln">401</span>      * This is a convenient method of {@link query} when only the first row of data is needed.
+				<div class="code"><pre><span class="ln">84</span>      */
+<span class="ln">85</span>     public function init()
+<span class="ln">86</span>     {
+<span class="ln">87</span>         parent::init();
+<span class="ln">88</span>         $servers=$this-&gt;getServers();
+<span class="error"><span class="ln error-ln">89</span>         $cache=$this-&gt;getMemCache();
+</span><span class="ln">90</span>         if(count($servers))
+<span class="ln">91</span>         {
+<span class="ln">92</span>             foreach($servers as $server)
+<span class="ln">93</span>             {
+<span class="ln">94</span>                 if($this-&gt;useMemcached)
 </pre></div>			</td>
 		</tr>
-						<tr class="trace app expanded">
+						<tr class="trace core collapsed">
 			<td class="number">
 				#1			</td>
 			<td class="content">
 				<div class="trace-file">
 											<div class="plus">+</div>
 						<div class="minus">–</div>
-										&nbsp;/home/user/workspace/Weather/backend/protected/controllers/WeatherController.php(174): <strong>CDbCommand</strong>-><strong>queryAll</strong>()				</div>
+										&nbsp;/home/user/workspace/Weather/backend/framework/framework/base/CModule.php(393): <strong>CMemCache</strong>-><strong>init</strong>()				</div>
 
-				<div class="code"><pre><span class="ln">169</span>                 echo $city.&quot;&lt;br&gt;&quot;;
-<span class="ln">170</span>                 $weather_cache = Yii::app()-&gt;db-&gt;createCommand($sql)
-<span class="ln">171</span>                     -&gt;bindParam(&#039;:city&#039;, $city, PDO::PARAM_STR)
-<span class="ln">172</span>                     -&gt;bindParam(&#039;:provider&#039;, $provider, PDO::PARAM_STR)
-<span class="ln">173</span>                     -&gt;bindParam(&#039;:today&#039;, $today, PDO::PARAM_STR)
-<span class="error"><span class="ln error-ln">174</span>                     -&gt;queryAll();
-</span><span class="ln">175</span>                 Yii::app()-&gt;cache-&gt;set(&quot;find&quot;.$city, $weather_cache, 86400);
-<span class="ln">176</span>             }
-<span class="ln">177</span>         }else if(isset($lat) &amp;&amp; isset($lon)){
-<span class="ln">178</span>             $weather_cache = Yii::app()-&gt;cache-&gt;get(&quot;find&quot;.$lat.$lon);
-<span class="ln">179</span>             if($weather_cache == false){
+				<div class="code"><pre><span class="ln">388</span>             if(!isset($config[&#039;enabled&#039;]) || $config[&#039;enabled&#039;])
+<span class="ln">389</span>             {
+<span class="ln">390</span>                 Yii::trace(&quot;Loading \&quot;$id\&quot; application component&quot;,&#039;system.CModule&#039;);
+<span class="ln">391</span>                 unset($config[&#039;enabled&#039;]);
+<span class="ln">392</span>                 $component=Yii::createComponent($config);
+<span class="error"><span class="ln error-ln">393</span>                 $component-&gt;init();
+</span><span class="ln">394</span>                 return $this-&gt;_components[$id]=$component;
+<span class="ln">395</span>             }
+<span class="ln">396</span>         }
+<span class="ln">397</span>     }
+<span class="ln">398</span> 
 </pre></div>			</td>
 		</tr>
 						<tr class="trace core collapsed">
 			<td class="number">
 				#2			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/user/workspace/Weather/backend/framework/framework/base/CModule.php(103): <strong>CModule</strong>-><strong>getComponent</strong>(&quot;cache&quot;)				</div>
+
+				<div class="code"><pre><span class="ln">098</span>      * @return mixed the named property value
+<span class="ln">099</span>      */
+<span class="ln">100</span>     public function __get($name)
+<span class="ln">101</span>     {
+<span class="ln">102</span>         if($this-&gt;hasComponent($name))
+<span class="error"><span class="ln error-ln">103</span>             return $this-&gt;getComponent($name);
+</span><span class="ln">104</span>         else
+<span class="ln">105</span>             return parent::__get($name);
+<span class="ln">106</span>     }
+<span class="ln">107</span> 
+<span class="ln">108</span>     /**
+</pre></div>			</td>
+		</tr>
+						<tr class="trace app expanded">
+			<td class="number">
+				#3			</td>
+			<td class="content">
+				<div class="trace-file">
+											<div class="plus">+</div>
+						<div class="minus">–</div>
+										&nbsp;/home/user/workspace/Weather/backend/protected/controllers/WeatherController.php(163): <strong>CModule</strong>-><strong>__get</strong>(&quot;cache&quot;)				</div>
+
+				<div class="code"><pre><span class="ln">158</span>         $provider = strtr($provider, $pr);
+<span class="ln">159</span>         $today = date(&quot;Y-m-d&quot;);
+<span class="ln">160</span> 
+<span class="ln">161</span>         if(isset($city)) {
+<span class="ln">162</span>             $city = mb_convert_case($city, MB_CASE_LOWER , &quot;UTF-8&quot;);
+<span class="error"><span class="ln error-ln">163</span>             $weather_cache = Yii::app()-&gt;cache-&gt;get(&quot;find&quot;.$city);
+</span><span class="ln">164</span>             if($weather_cache == false){
+<span class="ln">165</span> 
+<span class="ln">166</span>                 $sql = &quot;SELECT $out_from_db FROM $join
+<span class="ln">167</span>                     WHERE  (c.name_en LIKE :city OR c.name_ru LIKE :city)
+<span class="ln">168</span>                     AND date_forecast = :today AND w.provider_id = :provider&quot;;
+</pre></div>			</td>
+		</tr>
+						<tr class="trace core collapsed">
+			<td class="number">
+				#4			</td>
 			<td class="content">
 				<div class="trace-file">
 											<div class="plus">+</div>
@@ -268,7 +305,7 @@ pre span.error-ln {
 		</tr>
 						<tr class="trace core collapsed">
 			<td class="number">
-				#3			</td>
+				#5			</td>
 			<td class="content">
 				<div class="trace-file">
 											<div class="plus">+</div>
@@ -290,7 +327,7 @@ pre span.error-ln {
 		</tr>
 						<tr class="trace core collapsed">
 			<td class="number">
-				#4			</td>
+				#6			</td>
 			<td class="content">
 				<div class="trace-file">
 											<div class="plus">+</div>
@@ -308,7 +345,7 @@ pre span.error-ln {
 		</tr>
 						<tr class="trace core collapsed">
 			<td class="number">
-				#5			</td>
+				#7			</td>
 			<td class="content">
 				<div class="trace-file">
 											<div class="plus">+</div>
@@ -330,7 +367,7 @@ pre span.error-ln {
 		</tr>
 						<tr class="trace core collapsed">
 			<td class="number">
-				#6			</td>
+				#8			</td>
 			<td class="content">
 				<div class="trace-file">
 											<div class="plus">+</div>
@@ -352,7 +389,7 @@ pre span.error-ln {
 		</tr>
 						<tr class="trace core collapsed">
 			<td class="number">
-				#7			</td>
+				#9			</td>
 			<td class="content">
 				<div class="trace-file">
 											<div class="plus">+</div>
@@ -371,7 +408,7 @@ pre span.error-ln {
 		</tr>
 						<tr class="trace core collapsed">
 			<td class="number">
-				#8			</td>
+				#10			</td>
 			<td class="content">
 				<div class="trace-file">
 											<div class="plus">+</div>
@@ -392,7 +429,7 @@ pre span.error-ln {
 		</tr>
 						<tr class="trace core collapsed">
 			<td class="number">
-				#9			</td>
+				#11			</td>
 			<td class="content">
 				<div class="trace-file">
 											<div class="plus">+</div>
@@ -414,7 +451,7 @@ pre span.error-ln {
 		</tr>
 						<tr class="trace core collapsed">
 			<td class="number">
-				#10			</td>
+				#12			</td>
 			<td class="content">
 				<div class="trace-file">
 											<div class="plus">+</div>
@@ -436,7 +473,7 @@ pre span.error-ln {
 		</tr>
 						<tr class="trace core collapsed">
 			<td class="number">
-				#11			</td>
+				#13			</td>
 			<td class="content">
 				<div class="trace-file">
 											<div class="plus">+</div>
@@ -458,7 +495,7 @@ pre span.error-ln {
 		</tr>
 						<tr class="trace core collapsed">
 			<td class="number">
-				#12			</td>
+				#14			</td>
 			<td class="content">
 				<div class="trace-file">
 											<div class="plus">+</div>
@@ -480,7 +517,7 @@ pre span.error-ln {
 		</tr>
 						<tr class="trace core collapsed">
 			<td class="number">
-				#13			</td>
+				#15			</td>
 			<td class="content">
 				<div class="trace-file">
 											<div class="plus">+</div>
@@ -502,7 +539,7 @@ pre span.error-ln {
 		</tr>
 						<tr class="trace app expanded">
 			<td class="number">
-				#14			</td>
+				#16			</td>
 			<td class="content">
 				<div class="trace-file">
 											<div class="plus">+</div>
@@ -521,7 +558,7 @@ pre span.error-ln {
 	</div>
 
 	<div class="version">
-		2014-08-20 10:33:22 nginx/1.1.19 <a href="http://www.yiiframework.com/">Yii Framework</a>/1.1.16-dev	</div>
+		2014-08-20 16:39:58 nginx/1.1.19 <a href="http://www.yiiframework.com/">Yii Framework</a>/1.1.16-dev	</div>
 </div>
 
 <script type="text/javascript">
