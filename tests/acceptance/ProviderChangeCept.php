@@ -1,12 +1,13 @@
 <?php
 $I = new WebGuy($scenario);
 $I->amOnPage('');
-$I->see('main_provider');
-$I->see('provider');
-$I->click('.//div[@class="selectors__button"][1]');
-$I->see('main_provider');
-$I->click('.//div[@class="selectors__button"][1]');
-$I->see('provider');
-$I->click('.//div[@class="selectors__button"][2]');
-$I->see('main_provider');
+$I->seeElement('#ya');
+$I->seeElement('#ow');
+$I->seeElement('#wu');
+$I->click('#ow');
+//$I->seeElement('.//*[@class="selectors__button _ow _selected"]');
+$I->click('#wu');
+//$I->seeElement('.//*[@class="selectors__button _wu _selected"]');
+$I->click('#ya');
+//$I->seeElement('.//*[@class="selectors__button _ya _selected"]');
 ?>

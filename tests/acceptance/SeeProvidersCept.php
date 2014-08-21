@@ -1,6 +1,7 @@
 <?php
 $I = new WebGuy($scenario);
 $I->amOnPage('');
-$I->see('main_provider');
-$I->see('provider');
+$I->seeElement('#ya');
+$I->seeElement('#ow');
+$I->seeElement('#wu');
 ?>
